@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>HTML5 개인 포트폴리오 홈페이지</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/jquery.mobile-1.4.5.min.css">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/jquery.mobile-1.4.5.min.css" rel="stylesheet">
     <script src="assets/js/jquery-1.11.1.min.js"></script>
     <script src="assets/js/jquery.mobile-1.4.5.min.js"></script>
 </head>
@@ -17,7 +17,7 @@
         </header>
         <div data-role="navbar">
             <ul>
-                <li><a href="#intro" class="ui-btn-active ui-state-persist">소개</a></li>
+                <li><a class="ui-btn-active ui-state-persist" href="#intro">소개</a></li>
                 <li><a href="#info">인적</a></li>
                 <li><a href="#study">학술</a></li>
                 <li><a href="#career">경력</a></li>
@@ -49,13 +49,13 @@
         </aside>
     </div>
     <div class="section1" data-role="page" id="info">
-        <header data-role="header">
-            <h1>홍길동 홈페이지</h1>
-        </header>
+                <header data-role="header">
+                    <h1>홍길동 홈페이지</h1>
+                </header>
         <div data-role="navbar">
             <ul>
                 <li><a href="#intro">소개</a></li>
-                <li><a href="#info" class="ui-btn-active ui-state-persist">인적</a></li>
+                <li><a class="ui-btn-active ui-state-persist" href="#info">인적</a></li>
                 <li><a href="#study">학술</a></li>
                 <li><a href="#career">경력</a></li>
             </ul>
@@ -99,14 +99,14 @@
 
     </div>
     <div class="section1" data-role="page" id="study">
-        <header data-role="header">
-            <h1>홍길동 홈페이지</h1>
-        </header>
+                <header data-role="header">
+                    <h1>홍길동 홈페이지</h1>
+                </header>
         <div data-role="navbar">
             <ul>
                 <li><a href="#intro">소개</a></li>
                 <li><a href="#info">인적</a></li>
-                <li><a href="#study" class="ui-btn-active ui-state-persist">학술</a></li>
+                <li><a class="ui-btn-active ui-state-persist" href="#study">학술</a></li>
                 <li><a href="#career">경력</a></li>
             </ul>
         </div>
@@ -129,6 +129,50 @@
         <ul>
             <li>교내 소프트웨어공모전 금상</li>
             <li>포트폴리오 경진대회 장려상</li>
+        </ul>
+        <aside>
+            <h3>참조링크</h3>
+            <a href="http://www.naver.com">
+                <img alt="네이버이동" class="portal" src="assets/image/naver.jpg"/>
+            </a>
+            <a href="http://www.google.com">
+                <img alt="구글이동" class="portal" src="assets/image/google.jpg"/>
+            </a>
+            <a href="http://www.daum.net">
+                <img alt="다음이동" class="portal" src="assets/image/daum.jpg"/>
+            </a>
+        </aside>
+    </div>
+    <div class="section1" data-role="page" id="career">
+                <header data-role="header">
+                    <h1>홍길동 홈페이지</h1>
+                </header>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#intro">소개</a></li>
+                <li><a href="#info">인적</a></li>
+                <li><a href="#study">학술</a></li>
+                <li><a class="ui-btn-active ui-state-persist" href="#career">경력</a></li>
+            </ul>
+        </div>
+        <h3>세미나(연수)</h3>
+        <ul>
+            <li>2012. 4 빅 데이터 응용 세미나 참석</li>
+            <li>2013. 3~6 IT 멘토링 사업 참여</li>
+        </ul>
+        <div id="pic-container">
+            <img class="semi-pic" id="pic1" src="assets/image/seminar1.jpg"/>
+            <img class="semi-pic" id="pic2" src="assets/image/seminar2.jpg"/>
+            <img class="semi-pic" id="pic3" src="assets/image/seminar3.jpg"/>
+        </div>
+        <h3>인턴쉽</h3>
+        <ul>
+            <li>2013.7~8 하계 인턴쉽 참여(퓨처스게임)</li>
+        </ul>
+        <h3>봉사</h3>
+        <ul>
+            <li>2011.7 농어촌 봉사활동</li>
+            <li>2012.8 취약계층 IT 방문교육서비스 참여</li>
         </ul>
         <aside>
             <h3>참조링크</h3>
