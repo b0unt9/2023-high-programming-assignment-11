@@ -47,7 +47,7 @@ h3 {
 
 h1,
 h2 {
-  background-image: url(bg.jpg);
+  background-image: url(../image/bg.jpg);
   background-repeat: repeat-x;
 }
 
@@ -99,7 +99,7 @@ nav > span > a:hover {
 
 .section1 ul li {
   list-style-position: inside;
-  list-style-image: url("li.jpg");
+  list-style-image: url("../image/li.jpg");
 }
 
 /* mintro.html 적용 스타일 */
